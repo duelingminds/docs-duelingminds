@@ -5,6 +5,8 @@ tags:
 ---
 ## Google Drive
 
+[[content/index|HOME]]
+
 The shared drive folder is a community maintained cloud storage solution that hosts all of the drafts for newsletter materials to be collaborated on. Contact one of the volunteer leaders or Dueling Minds staff in the volunteer discord to be given access.
 
 Please take a moment to familiarize yourself with this guide as well as the instructions regarding referencing Drive files in the  [[Trello Workflow]] 
