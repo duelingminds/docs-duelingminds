@@ -3,39 +3,62 @@ publish: true
 title: Style Guide
 tags:
 ---
-# Dueling Minds Styleguide
+# Dueling Minds Style guide
 
 [[content/index|HOME]]
 
-The intention of this style guide is for it to be a living document. Changes and additions to be added as issues are raised and decided on. Feel free to leave comments and discussions.
+The intention of this style guide is for it to be a living document. Changes and additions to be added as issues are raised and decided on. Feel free to leave comments and discussions in the appropriate channels of the volunteer Discord.
 
-## Universal
+## Newsletter and Blogs
 
-  
-### Capitalization
+### ***Tense and Tone*** 
 
-When using board titles such as ‘technology chair’ only capitalize the job title when it directly precedes a person’s name. Be mindful of commas and appositive phrases which do not require capitalization.(APA)
+&ensp; Newsletters should follow a conversational style and address the reader directly where appropriate. 
+
+>e.g. "You don't have to...", "You are allowed...", etc.
+
+&ensp; This creates a connection to the reader, engages directly with them and helps to keep things concise. 
+
+&ensp; At the contributor or editor's discretion, however, tone may be altered to favor a more objective tone.
+
+>e.g. "We don't...", "We should do...", "We should try", etc.
+
+&ensp; This is to be used when subject matter may become emotionally heavy, triggering, or pushing into personal territory that a reader may be sensitive about. As this is at the contributor's discretion, the more objective tense may be used for all of their contributions if they feel more comfortable doing so.
+
+### ***Capitalization***
+
+&ensp;  When using board titles such as ‘technology chair’ only capitalize the job title when it directly precedes a person’s name. Be mindful of commas and appositive phrases which do not require capitalization.(APA)
 
 
 As in: “Board Member Ada Lovelace voted to…” 
 
-Not: “Ada Lovelace voted as a Board Member to…”
+Not: “Ada Lovelace voted as a <font color="#953734">B</font>oard <font color="#953734">M</font>ember to…”
 
-And Not: “A Board Member, Ada Lovelace, voted today to…”: 
+And Not: “A <font color="#953734">B</font>oard <font color="#953734">M</font>ember, Ada Lovelace, voted today to…”: 
 
 
 The portions highlighted in red above, should be lowercase.
 
-### Headings
+### ***Headings***
 
-![](https://lh7-us.googleusercontent.com/o2IeZ7CLkUbPBJokVtEN_AxrkBzg95xhkYiU576I1TXerHih2E5V0Nqp1K0ZTTxY44UOI_5qKX7de5dpg0-ColoLpXG9P06QzCSKn8T_Iolf-ap1zRV204DiGfPfxnTdhTLyGp_J0KCCEVxb-kRAuNA)
+| Level |                                APA Heading Format (7th ed.)                                |
+| :---: | :----------------------------------------------------------------------------------------: |
+|   1   | **Centered Bold, Title Case**<br><br>&ensp; Text begins on a new line (indent first line). |
+
+| Level |                                                                                                     |
+| :---: | --------------------------------------------------------------------------------------------------- |
+|   2   | **Left-aligned, Bold, Title Case**<br>&ensp; Text begins on a new line (indent first line).         |
+|   3   | **Left-aligned, Bold, Italic, Title Case**<br>&ensp; Text begins on a new line (indent first line). |
+|   4   | &ensp;  **Indented, Bold, Title Case, Period.** Text begins on the same line.                       |
+|   5   | &ensp; ***Indented, Bold, Italic, Title Case, Period.*** Text begins on the same line.              |
+
 
 - Note: Heading formatting does not have to be strict in our application. As Dueling Minds is not publishing academic material at this time. This only serves as a default guideline.
     
 
-### Quotations Longer Than 40 Words
+### ***Quotations Longer Than 40 Words***
 
-When using a quotation of more than 40 words, arrange the quotation into a separate block on the page. There are several important rules regarding block quotations:
+&ensp; When using a quotation of more than 40 words, arrange the quotation into a separate block on the page. There are several important rules regarding block quotations:
 
 - Start a block quotation on a separate line and indent it and all subsequent lines by 1.27 cm (0.5 inches). For multi-paragraph quotes, indent the first line of each subsequent paragraph an additional 1.27 cm (0.5 inches).
     
@@ -53,13 +76,10 @@ Example:
 
 *APA Style, 7th edition: Quotations longer than 40 words*
 
-## Newsletter specific
+### ***Attributions***
 
-### Attributions
+&ensp; Use APA style attributions when posting text content from outside sources.
 
-Use APA style attributions when posting text content from outside sources.
-
-Make sure all infographics included are freely distributable, and do not cut off, modify or edit any branding that attributes the original creator.
+&ensp; Make sure all infographics included are freely distributable, and do not cut off, modify or edit any branding that attributes the original creator.
   
 
-## Web content specific
