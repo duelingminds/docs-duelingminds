@@ -3,5 +3,8 @@ title: Welcome Dueling Minds Volunteers
 publish: true
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This site contains documentation for Dueling Minds volunteers.
+
+## Index
+
+[[Style Guide]]
