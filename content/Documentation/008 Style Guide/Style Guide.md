@@ -28,7 +28,17 @@ The portions highlighted in red above, should be lowercase.
 
 ### Headings
 
-![](https://lh7-us.googleusercontent.com/o2IeZ7CLkUbPBJokVtEN_AxrkBzg95xhkYiU576I1TXerHih2E5V0Nqp1K0ZTTxY44UOI_5qKX7de5dpg0-ColoLpXG9P06QzCSKn8T_Iolf-ap1zRV204DiGfPfxnTdhTLyGp_J0KCCEVxb-kRAuNA)
+| Level |                               APA Heading Format (7th ed.)                               |
+| :---: | :--------------------------------------------------------------------------------------: |
+|   1   | **Centered Bold, Title Case**<br><br>>    Text begins on a new line (indent first line). |
+
+| Level |                                                                                                  |
+| :---: | ------------------------------------------------------------------------------------------------ |
+|   2   | **Left-aligned, Bold, Title Case**<br>    Text begins on a new line (indent first line).         |
+|   3   | **Left-aligned, Bold, Italic, Title Case**<br>    Text begins on a new line (indent first line). |
+|   4   | >   **Indented, Bold, Title Case, Period.** Text begins on the same line.                        |
+|   5   | >    ***Indented, Bold, Italic, Title Case, Period.*** Text begins on the same line.             |
+
 
 - Note: Heading formatting does not have to be strict in our application. As Dueling Minds is not publishing academic material at this time. This only serves as a default guideline.
     
