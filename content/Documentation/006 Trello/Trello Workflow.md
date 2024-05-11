@@ -3,7 +3,7 @@ publish: true
 title: Trello Workflow
 tags:
 ---
-[[content/index|HOME]]
+
 
 WIP
 ## Notes

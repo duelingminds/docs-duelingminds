@@ -5,7 +5,7 @@ tags:
 ---
 # Dueling Minds Style guide
 
-[[content/index|HOME]]
+
 
 The intention of this style guide is for it to be a living document. Changes and additions to be added as issues are raised and decided on. Feel free to leave comments and discussions in the appropriate channels of the volunteer Discord.
 
