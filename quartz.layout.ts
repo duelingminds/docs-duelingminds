@@ -31,7 +31,16 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      localGraph: {
+        scale: 1.2,
+        focusOnHover: true
+      },
+      globalGraph: {
+        scale: 1.2,
+        focusOnHover: true
+      }
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
