@@ -11,20 +11,23 @@ tags: []
   .color-palette {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60%;
     gap: 10px;
   }
   .color-box {
     width: 100px;
     height: 100px;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
   .badge {
+    display: inline-block;
+    text-align: center;
     background-color: #4CAF50;
     color: white;
     padding: 6px 12px;
     border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
 
   .fail {
@@ -46,14 +49,14 @@ tags: []
 <div class="color-palette">
   <div class="color-box" style="background-color: #1E262F"></div>
   <div class="color-box" style="background-color: #443355;"></div>
-  <div class="color-box" style="background-color: #395252;"></div>
+  <div class="color-box" style="background-color: #1C3045;"></div>
+  <div class="color-box" style="background-color: #3C6262;"></div>
   <div class="color-box" style="background-color: #A6403A;"></div>
   <div class="color-box" style="background-color: #D87550;"></div>
   <div class="color-box" style="background-color: #E8B387;"></div>
   <div class="color-box" style="background-color: #E9D3B9;"></div>
   <div class="color-box" style="background-color: #FEFEF1;"></div>
 </div>
-
 
 
 ## Text Contrast WCAG compliance
@@ -74,7 +77,7 @@ tags: []
 | <span class="badge" style="background-color: #E8B387; color: #1E262F;">Dueling Minds</span> | `#E8B387` | `#1E262F`  | 8.18  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #443355; color: #E9D3B9;">Dueling Minds</span> | `#443355` | `#E9D3B9`  | 7.83  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #E9D3B9; color: #443355;">Dueling Minds</span> | `#E9D3B9` | `#443355`  | 7.83  | <span class="pass badge">Pass</span>                  |
-| <span class="badge" style="background-color: #1C3045; color: #FEFEF1;">Dueling Minds</span> | `#1C3045` | `#E8B387`  | 7.21  | <span class="pass badge">Pass</span>                  |
+| <span class="badge" style="background-color: #1C3045; color: #E8B387;">Dueling Minds</span> | `#1C3045` | `#E8B387`  | 7.21  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #FEFEF1; color: #1C3045;">Dueling Minds</span> | `#E8B387` | `#1C3045`  | 7.21  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #3C6262; color: #FEFEF1;">Dueling Minds</span> | `#3C6262` | `#FEFEF1`  | 6.63  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #FEFEF1; color: #3C6262;">Dueling Minds</span> | `#FEFEF1` | `#3C6262`  | 6.63  | <span class="pass badge">Pass</span>                  |

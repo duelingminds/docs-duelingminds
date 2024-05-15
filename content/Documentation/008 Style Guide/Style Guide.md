@@ -32,9 +32,9 @@ The intention of this style guide is for it to be a living document. Changes and
 
 As in: “Board Member Ada Lovelace voted to…” 
 
-Not: “Ada Lovelace voted as a <font color="#953734">B</font>oard <font color="#953734">M</font>ember to…”
+Not: “Ada Lovelace voted as a <span style="background-color: #A6403A">B</span>oard <span style="background-color: #A6403A">M</span>ember to…”
 
-And Not: “A <font color="#953734">B</font>oard <font color="#953734">M</font>ember, Ada Lovelace, voted today to…”: 
+And Not: “A <span style="background-color: #A6403A">B</span>oard <span style="background-color: #A6403A">M</span>ember, Ada Lovelace, voted today to…”: 
 
 
 The portions highlighted in red above, should be lowercase.
