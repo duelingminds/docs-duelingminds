@@ -83,3 +83,6 @@ Example:
 &ensp; Make sure all infographics included are freely distributable, and do not cut off, modify or edit any branding that attributes the original creator.
   
 
+### ***Colors***
+
+see [[Brand Colors]]
