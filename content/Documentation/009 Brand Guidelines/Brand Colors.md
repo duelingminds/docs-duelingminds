@@ -6,17 +6,19 @@ tags: []
 
 ## Proposed Palette Revision
 
-
 <style>
   .color-palette {
     display: flex;
     flex-wrap: wrap;
     width: 60%;
+    margin-left:20%;
+    margin-right:20%;
     gap: 10px;
   }
   .color-box {
-    width: 100px;
-    height: 100px;
+    display:block;
+    flex-basis: calc(33.33% - 10px);
+    aspect-ratio: 1;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
