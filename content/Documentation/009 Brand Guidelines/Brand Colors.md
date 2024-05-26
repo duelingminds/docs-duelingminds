@@ -22,6 +22,47 @@ tags: []
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
+  .color-pallete .wd-outer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .wd-outer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .wd {
+    color: #FEFEF1;
+    padding-top: 14%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10%;
+  }
+  .wd-light {
+    color: #1E262F;
+    padding-top: 14%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10%;
+
+  }
+  .wd-60 {
+    flex-basis: calc(30% - 10px);
+    aspect-ratio: 2;
+  }
+  .wd-30 {
+    flex-basis: calc(20% - 10px);
+    aspect-ratio: 2;
+  }
+  .wd-10 {
+    flex-basis: calc(10% - 10px);
+    aspect-ratio: 2;
+  }
   .badge {
     display: inline-block;
     text-align: center;
@@ -49,17 +90,62 @@ tags: []
 </style>
 
 <div class="color-palette">
-  <div class="color-box" style="background-color: #1E262F"></div>
+  <div class="color-box" style="background-color: #1E262F;"></div>
   <div class="color-box" style="background-color: #443355;"></div>
   <div class="color-box" style="background-color: #1C3045;"></div>
   <div class="color-box" style="background-color: #3C6262;"></div>
   <div class="color-box" style="background-color: #A6403A;"></div>
   <div class="color-box" style="background-color: #D87550;"></div>
-  <div class="color-box" style="background-color: #E8B387;"></div>
   <div class="color-box" style="background-color: #E9D3B9;"></div>
   <div class="color-box" style="background-color: #FEFEF1;"></div>
 </div>
 
+## Brand Color Combinations
+
+### Dark Background 1
+
+<div class="color-palette wd-outer">
+  <div class="color-box wd wd-60" style="background-color: #1C3045;">Primary</div>
+  <div class="color-box wd wd-30" style="background-color: #D87550;">Secondary</div>
+  <div class="color-box wd wd-10" style="background-color: #A6403A;">Accent</div>
+  <div class="color-box wd wd-10" style="background-color: #1E262F;">Text</div>
+  <div class="color-box wd-light wd-10" style="background-color: #FEFEF1;">Text</div>
+</div>
+
+### Dark Background 2
+
+<div class="color-palette wd-outer">
+  <div class="color-box wd wd-60" style="background-color: #443355;">Primary</div>
+  <div class="color-box wd-light wd-30" style="background-color: #E9D3B9;">Secondary</div>
+  <div class="color-box wd-light wd-10" style="background-color: #D87550;">Accent</div>
+  <div class="color-box wd wd-10" style="background-color: #1E262F;">Text</div>
+  <div class="color-box wd-light wd-10" style="background-color: #FEFEF1;">Text</div>
+</div>
+
+### Light Background 1
+
+<div class="color-palette wd-outer">
+  <div class="color-box wd-light wd-60" style="background-color: #E9D3B9;">Primary</div>
+  <div class="color-box wd wd-30" style="background-color: #A6403A;">Secondary</div>
+  <div class="color-box wd-light wd-10" style="background-color: #D87550;">Accent</div>
+  <div class="color-box wd wd-10" style="background-color: #1E262F;">Text</div>
+  <div class="color-box wd-light wd-10" style="background-color: #FEFEF1;">Text</div>
+</div>
+
+### Light Background 2
+
+<div class="color-palette wd-outer">
+  <div class="color-box wd-light wd-60" style="background-color: #E9D3B9;">Primary</div>
+  <div class="color-box wd-light wd-30" style="background-color: #FEFEF1;">Secondary</div>
+  <div class="color-box wd wd-10" style="background-color: #A6403A;">Accent</div>
+  <div class="color-box wd wd-10" style="background-color: #1E262F;">Text</div>
+  <div class="color-box wd-light wd-10" style="background-color: #FEFEF1;">Text</div>
+</div>
+
+### Alternate / Spot colors
+<div class="color-palette wd-outer">
+  <div class="color-box wd wd-10" style="background-color: #3C6262;">Accent</div>
+</div>
 
 ## Text Contrast WCAG compliance
 
@@ -75,16 +161,11 @@ tags: []
 | <span class="badge" style="background-color: #E9D3B9; color: #1E262F;">Dueling Minds</span> | `#E9D3B9` | `#1E262F`  | 10.54 | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #1C3045; color: #E9D3B9;">Dueling Minds</span> | `#1C3045` | `#E9D3B9`  | 9.30  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #E9D3B9; color: #1C3045;">Dueling Minds</span> | `#E9D3B9` | `#1C3045`  | 9.30  | <span class="pass badge">Pass</span>                  |
-| <span class="badge" style="background-color: #1E262F; color: #E8B387;">Dueling Minds</span> | `#1E262F` | `#E8B387`  | 8.18  | <span class="pass badge">Pass</span>                  |
-| <span class="badge" style="background-color: #E8B387; color: #1E262F;">Dueling Minds</span> | `#E8B387` | `#1E262F`  | 8.18  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #443355; color: #E9D3B9;">Dueling Minds</span> | `#443355` | `#E9D3B9`  | 7.83  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #E9D3B9; color: #443355;">Dueling Minds</span> | `#E9D3B9` | `#443355`  | 7.83  | <span class="pass badge">Pass</span>                  |
-| <span class="badge" style="background-color: #1C3045; color: #E8B387;">Dueling Minds</span> | `#1C3045` | `#E8B387`  | 7.21  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #FEFEF1; color: #1C3045;">Dueling Minds</span> | `#E8B387` | `#1C3045`  | 7.21  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #3C6262; color: #FEFEF1;">Dueling Minds</span> | `#3C6262` | `#FEFEF1`  | 6.63  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #FEFEF1; color: #3C6262;">Dueling Minds</span> | `#FEFEF1` | `#3C6262`  | 6.63  | <span class="pass badge">Pass</span>                  |
-| <span class="badge" style="background-color: #443355; color: #E8B387;">Dueling Minds</span> | `#443355` | `#E8B387`  | 6.07  | <span class="pass badge">Pass</span>                  |
-| <span class="badge" style="background-color: #E8B387; color: #443355;">Dueling Minds</span> | `#E8B387` | `#443355`  | 6.07  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #A6403A; color: #FEFEF1;">Dueling Minds</span> | `#A6403A` | `#FEFEF1`  | 6.05  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #FEFEF1; color: #A6403A;">Dueling Minds</span> | `#FEFEF1` | `#A6403A`  | 6.05  | <span class="pass badge">Pass</span>                  |
 | <span class="badge" style="background-color: #1E262F; color: #D87550;">Dueling Minds</span> | `#1E262F` | `#D87550`  | 4.79  | <span class="pass badge">Pass</span>                  |
@@ -95,12 +176,8 @@ tags: []
 | <span class="badge" style="background-color: #E9D3B9; color: #A6403A;">Dueling Minds</span> | `#E9D3B9` | `#A6403A`  | 4.24  | <span class="borderline badge">18 or 14pt Bold</span> |
 | <span class="badge" style="background-color: #1C3045; color: #D87550;">Dueling Minds</span> | `#1C3045` | `#D87550`  | 4.22  | <span class="borderline badge">18 or 14pt Bold</span> |
 | <span class="badge" style="background-color: #D87550; color: #1C3045;">Dueling Minds</span> | `#D87550` | `#1C3045`  | 4.22  | <span class="borderline badge">18 or 14pt Bold</span> |
-| <span class="badge" style="background-color: #3C6262; color: #E8B387;">Dueling Minds</span> | `#3C6262` | `#E8B387`  | 3.60  | <span class="borderline badge">18 or 14pt Bold</span> |
-| <span class="badge" style="background-color: #E8B387; color: #3C6262;">Dueling Minds</span> | `#E8B387` | `#3C6262`  | 3.60  | <span class="borderline badge">18 or 14pt Bold</span> |
 | <span class="badge" style="background-color: #443355; color: #D87550;">Dueling Minds</span> | `#443355` | `#D87550`  | 3.56  | <span class="borderline badge">18 or 14pt Bold</span> |
 | <span class="badge" style="background-color: #D87550; color: #443355;">Dueling Minds</span> | `#D87550` | `#443355`  | 3.56  | <span class="borderline badge">18 or 14pt Bold</span> |
-| <span class="badge" style="background-color: #A6403A; color: #E8B387;">Dueling Minds</span> | `#A6403A` | `#E8B387`  | 3.29  | <span class="borderline badge">18 or 14pt Bold</span> |
-| <span class="badge" style="background-color: #E8B387; color: #A6403A;">Dueling Minds</span> | `#E8B387` | `#A6403A`  | 3.29  | <span class="borderline badge">18 or 14pt Bold</span> |
 | <span class="badge" style="background-color: #D87550; color: #FEFEF1;">Dueling Minds</span> | `#D87550` | `#FEFEF1`  | 3.14  | <span class="borderline badge">18 or 14pt Bold</span> |
 | <span class="badge" style="background-color: #FEFEF1; color: #D87550;">Dueling Minds</span> | `#FEFEF1` | `#D87550`  | 3.14  | <span class="borderline badge">18 or 14pt Bold</span> |
 
