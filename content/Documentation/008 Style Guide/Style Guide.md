@@ -11,6 +11,11 @@ The intention of this style guide is for it to be a living document. Changes and
 
 ## Newsletter and Blogs
 
+### Markdown
+
+> [!INFO] Markdown Formatting
+> The staging of posts is to be stored in plain text markdown format. To facilitate easy copying from google docs across different services, such as our blog and email provider. Refer to the [[Google Docs Settings]] section on Markdown settings to adjust editor settings and formatting.
+
 ### ***Tense and Tone*** 
 
 &ensp; Newsletters should follow a conversational style and address the reader directly where appropriate. 
@@ -25,6 +30,9 @@ The intention of this style guide is for it to be a living document. Changes and
 
 &ensp; This is to be used when subject matter may become emotionally heavy, triggering, or pushing into personal territory that a reader may be sensitive about. As this is at the contributor's discretion, the more objective tense may be used for all of their contributions if they feel more comfortable doing so.
 
+### ***Header images***
+
+1200x630
 ### ***Capitalization***
 
 &ensp;  When using board titles such as ‘technology chair’ only capitalize the job title when it directly precedes a person’s name. Be mindful of commas and appositive phrases which do not require capitalization.(APA)

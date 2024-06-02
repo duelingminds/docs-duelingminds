@@ -38,6 +38,7 @@ For files created for a meeting on May 6th, 2024
 
 Prepend the date of the article as well as the intended section heading of the newsletter if applicable.
 
+
 ### Templates
 
 Templates are provided to copy and give minimal structure to begin a draft. Any file intended as a template should be prepended by an '' `_` '' underscore. to bring them to the top of alphabetical sorting and clearly denote the purpose and that it is a template in the filename.
