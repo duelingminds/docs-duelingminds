@@ -11,6 +11,6 @@ Index of files
 
 
 %% Begin Waypoint %%
-
+- [[Google Docs Settings]]
 
 %% End Waypoint %%
