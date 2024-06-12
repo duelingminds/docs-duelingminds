@@ -7,6 +7,7 @@ import { ExplorerNode, FileNode, Options } from "./ExplorerNode"
 import { QuartzPluginData } from "../plugins/vfile"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
+import { version } from "../../package.json"
 
 // Options interface defined in `ExplorerNode` to avoid circular dependency
 const defaultOptions = {
@@ -82,6 +83,7 @@ export default ((userOpts?: Partial<Options>) => {
     fileData,
   }: QuartzComponentProps) => {
     constructFileTree(allFiles)
+    const year = new Date().getFullYear()
     return (
       <div class={classNames(displayClass, "explorer")}>
         <button
@@ -114,7 +116,12 @@ export default ((userOpts?: Partial<Options>) => {
             <li id="explorer-end" />
           </ul>
         </div>
+        <p>
+          {i18n(cfg.locale).components.footer.createdWith}{" "}
+          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+        </p>
       </div>
+
     )
   }
 

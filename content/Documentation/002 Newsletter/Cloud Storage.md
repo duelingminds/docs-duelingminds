@@ -5,6 +5,7 @@ tags:
 ---
 ## Google Drive
 
+
 The shared drive folder is a community maintained cloud storage solution that hosts all of the drafts for newsletter materials to be collaborated on. Contact one of the volunteer leaders or Dueling Minds staff in the volunteer discord to be given access.
 
 Please take a moment to familiarize yourself with this guide as well as the instructions regarding referencing Drive files in the  [[Trello Workflow]] 
@@ -28,7 +29,7 @@ Note above the leading zero in the month '03'. This is mandatory for sorting con
 
 Example newsletter draft and contributor's submitted notes filenames:
 
->2024-05-06 Ada's peer support notes
+>2024-05-06 Ada's peer support notes <br>
 >2024-05-06 Newsletter Draft
 
 For files created for a meeting on May 6th, 2024
@@ -36,6 +37,7 @@ For files created for a meeting on May 6th, 2024
 ### Attachment naming
 
 Prepend the date of the article as well as the intended section heading of the newsletter if applicable.
+
 
 ### Templates
 

@@ -25,10 +25,22 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      title: "Volunteer Docs",
+      folderDefaultState: "open"
+    })),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      localGraph: {
+        scale: 1.2,
+        focusOnHover: true
+      },
+      globalGraph: {
+        scale: 1.2,
+        focusOnHover: true
+      }
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
