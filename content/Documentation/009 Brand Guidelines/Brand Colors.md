@@ -90,14 +90,14 @@ tags: []
 </style>
 
 <div class="color-palette">
-  <div class="color-box" style="background-color: #1E262F;"></div>
-  <div class="color-box" style="background-color: #443355;"></div>
-  <div class="color-box" style="background-color: #1C3045;"></div>
-  <div class="color-box" style="background-color: #3C6262;"></div>
-  <div class="color-box" style="background-color: #A6403A;"></div>
-  <div class="color-box" style="background-color: #D87550;"></div>
-  <div class="color-box" style="background-color: #E9D3B9;"></div>
-  <div class="color-box" style="background-color: #FEFEF1;"></div>
+  <div class="color-box" style="background-color: #1E262F;">#1E262F</div>
+  <div class="color-box" style="background-color: #443355;">#443355</div>
+  <div class="color-box" style="background-color: #1C3045;">#1C3045</div>
+  <div class="color-box" style="background-color: #3C6262;">#3C6262</div>
+  <div class="color-box" style="background-color: #A6403A;">#A6403A</div>
+  <div class="color-box" style="background-color: #D87550;">#D87550</div>
+  <div class="color-box" style="background-color: #E9D3B9;">#E9D3B9</div>
+  <div class="color-box" style="background-color: #FEFEF1;">#FEFEF1</div>
 </div>
 
 ## Brand Color Combinations
